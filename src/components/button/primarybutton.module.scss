@@ -1,0 +1,7 @@
+@import '../../styles/variable.scss';
+.primarybtn{
+    background-color: $buttoncolor;
+    border: none;
+    padding: 22px 31px 19px 33px;
+    color: $white-color;
+}

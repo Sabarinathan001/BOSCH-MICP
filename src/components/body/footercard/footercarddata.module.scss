@@ -1,0 +1,27 @@
+@import "../../../styles/variable.scss";
+.footercard {
+  background-color: $lightgray;
+  padding-top: 4.0438rem;
+  .subtitle,
+  .heading {
+    text-align: center;
+  }
+  .heading {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1.3313rem;
+  }
+}
+.card_container {
+  display: flex;
+  padding: 4rem 14.8125rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $lightgray;
+  gap: 1.5rem;
+}

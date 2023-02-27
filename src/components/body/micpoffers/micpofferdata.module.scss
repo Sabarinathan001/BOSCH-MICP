@@ -1,0 +1,19 @@
+@import "../../../styles/variable.scss";
+.data_container {
+  background-color: $white-color;
+  .title,
+  .subtitle {
+    text-align: center;
+  }
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1.3125rem;
+    padding-top: 3.9375rem;
+  }
+  .subtitle {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 4.0438rem;
+  }
+}

@@ -1,0 +1,41 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image_container {
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .button_container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #aaa;
+  }
+  
+  .button:active {
+    transform: translateY(2px);
+  }
+  

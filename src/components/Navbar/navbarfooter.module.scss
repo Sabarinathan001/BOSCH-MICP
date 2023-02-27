@@ -1,0 +1,16 @@
+@import "../../styles/variable.scss";
+.link_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 14rem;
+}
+.link{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.link:active{
+    color: $buttoncolor;
+}
+.link:hover{
+    color: $buttoncolor;
+}

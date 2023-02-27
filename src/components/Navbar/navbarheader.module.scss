@@ -1,0 +1,35 @@
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 38.9px;
+  padding-top: 1.325rem;
+
+  .searchicon{
+    width: 1.325rem;
+    height: 1.325rem;
+  }
+ 
+  button {
+    border: none;
+    background-color: white;
+  }
+  input {
+    border: none;
+    background-color: #fafafa;;
+    width: 594.7px;
+    padding: 0.8rem 0;
+  }
+  input:focus{
+    outline: none;
+  }
+  div {
+    border-bottom: 2px solid black;
+    background-color: #fafafa;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+   
+  }
+}

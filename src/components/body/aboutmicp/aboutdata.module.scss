@@ -1,0 +1,23 @@
+@import "../../../styles/variable.scss";
+.aboutdata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 103px;
+   
+  .subcontainer{
+    padding-left: 8rem;
+  }
+  .paragraph{
+    padding: 0 5.75rem 0 0;
+  }
+  .image {
+    width: 402.2px;
+    height: 402.7px;
+  }
+  .heading {
+    padding-bottom: 1.85rem;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../../styles/variable.scss";
+.footercard_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $border-gray;
+  width: 27.125rem;
+  height: 29.1875rem;
+  background-color: $white-color;
+
+  .image_container {
+    border: 1px solid $buttoncolor;
+    padding: 2rem;
+    border-radius: 50%;
+  }
+  .heading {
+    color: $buttoncolor;
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding-top: 1.4563rem;
+    // padding-bottom: 1.7312rem;
+  }
+  .paragraph{
+    padding:  1.7312rem 4rem;
+    text-align: center;
+    line-height: 1.4
+  }
+  .btn{
+    padding-bottom: 1.5rem;
+  }
+}

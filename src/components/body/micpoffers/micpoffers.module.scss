@@ -1,0 +1,51 @@
+.offer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12.5563rem 3.3312rem 14.175rem;
+
+  p {
+    padding: 1.5rem 0;
+    line-height: 1.88;
+  }
+  .subcontainer {
+    padding-right: 18.75rem;
+
+    .heading{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    
+}
+  .image {
+    width: 26.05rem;
+    height: 24.6687rem;
+  }
+
+}
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12.5563rem 0 14.175rem;
+
+  p {
+    padding: 1.5rem 0;
+    line-height: 1.88;
+  }
+  .heading{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .subreverse {
+    padding-left: 18.75rem;
+  }
+  .image {
+    width: 26.05rem;
+    height: 24.6687rem;
+  }
+}
+
+
+

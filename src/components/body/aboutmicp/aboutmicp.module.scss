@@ -1,0 +1,18 @@
+@import "../../../styles/variable.scss";
+.about_container{
+    background-color: $lightgray;
+    padding-bottom: 3rem;
+    
+    p{
+        line-height: 1.5;
+    }
+
+    .carddata{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 366px));
+        grid-template-rows: repeat(auto-fill, minmax(150px, 280px));
+        column-gap: 1rem;
+        justify-content: center;
+        align-items: center;   
+    }
+}

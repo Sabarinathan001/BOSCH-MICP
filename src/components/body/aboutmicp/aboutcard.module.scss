@@ -1,0 +1,29 @@
+@import "../../../styles/variable.scss";
+.aboutcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  p{
+    color: $dark-black;
+    text-align: center;
+    padding: 0 2rem;
+    line-height: 1.4;
+  }
+
+  .image_container{
+    border: 2px solid $buttoncolor;
+    padding: 2rem;
+    border-radius: 50%;
+  }
+  .image{
+    width: 68px;
+    height: 64px;
+  }
+  .link{
+    padding: 1rem 0;
+    color: $buttoncolor;
+  }
+}
+
