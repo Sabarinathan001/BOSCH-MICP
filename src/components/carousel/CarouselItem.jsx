@@ -1,6 +1,6 @@
 import React from "react";
 import Images from "@/assests/img";
-import Carousel from "./Carousel";
+import Carousel from "./Slider";
 
 function CarouselItem() {
   const carouselItem = [

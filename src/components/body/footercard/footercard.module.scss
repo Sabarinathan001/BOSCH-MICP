@@ -5,18 +5,19 @@
   justify-content: center;
   align-items: center;
   border: 1px solid $border-gray;
-  width: 27.125rem;
-  height: 29.1875rem;
+  // width: 27rem;
+  // height: 29.1875rem;'
+  padding: 1rem 0;
   background-color: $white-color;
 
   .image_container {
     border: 1px solid $buttoncolor;
-    padding: 2rem;
+    padding: 1.6rem;
     border-radius: 50%;
   }
   .heading {
     color: $buttoncolor;
-    font-size: 1.75rem;
+    font-size: 1.4rem;
     font-weight: 300;
     padding-top: 1.4563rem;
     // padding-bottom: 1.7312rem;

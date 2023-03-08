@@ -1,0 +1,7 @@
+@import "../../styles/variable.scss";
+.hiddenlink{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $white-color;
+}

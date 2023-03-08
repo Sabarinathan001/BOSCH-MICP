@@ -4,19 +4,27 @@
     justify-content: space-around;
     align-items: center;
     background-color: $buttoncolor;
-    padding: 4rem 1rem;
+    padding: 4rem 3rem;
     color: $white-color;
-
+    .subcard{
+        padding-right: 2rem;
+    }
     .button{
         border: 1px solid $buttoncolor;
         background-color: $white-color;
         color: $buttoncolor;
-        padding: 1.3125rem 3.625rem 1.375rem;
+        padding: 1rem 1.625rem;
+        width: 9rem;
     }
     .paragraph{
-     padding-top: 0.5rem;
+        padding-top: 0.5rem;
     }
     .heading{
         font-weight: 300;
+    }
+}
+@media (minwidth:1146px) {
+    .button{
+        width: 12rem;
     }
 }

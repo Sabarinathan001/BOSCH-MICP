@@ -1,16 +1,25 @@
 @import "../../styles/variable.scss";
 .link_container{
     display: flex;
-    justify-content: space-around;
-    padding: 1rem 14rem;
-}
-.link{
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-.link:active{
-    color: $buttoncolor;
-}
-.link:hover{
-    color: $buttoncolor;
+    justify-content: space-evenly;
+    padding: 1rem 5.5rem;
+    border-bottom: 2px solid $lightgray;
+    margin: 0 0.3rem;
+    @media screen and (max-width:925px) {
+      display: none;  
+    }
+   
+    .link{
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 0 1rem;
+    
+    }
+    // .link:hover{
+    //     color: $buttoncolor;
+    // }
+    .active{
+        color: $buttoncolor;
+    }
 }

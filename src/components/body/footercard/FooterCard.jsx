@@ -7,7 +7,7 @@ function FooterCard({data}) {
   return (
     <div className={styles.footercard_container} >
       <div className={styles.image_container}>
-     <Image className={styles.image} src={data.image} alt="image" width={100} height={100} />
+     <Image className={styles.image} src={data.image} alt="image" width={55} height={55} />
      </div>
      <h3 className={styles.heading}>{data.heading}</h3>
      <p className={styles.paragraph}>{data.paragraph}</p>

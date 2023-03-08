@@ -1,8 +1,12 @@
+import SignOutCard from '@/components/signout/SignOutCard'
 import React from 'react'
 
 function VirtualIdeationSpace() {
   return (
-    <div>VirtualIdeationSpace</div>
+    <div>
+      {/* <SignOutCard/> */}
+      hi
+    </div>
   )
 }
 

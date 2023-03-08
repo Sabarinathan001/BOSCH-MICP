@@ -11,37 +11,34 @@ function FoooterCardData() {
       image: Icons.registration,
       heading: "How to register",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, atque sit minus doloribus quos nobis libero odio quidem veniam unde!",
+        "Lorm is simply summy text of the printing and type setting the industry",
     },
     {
       image: Icons.coredata,
       heading: "How to query data",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, atque sit minus doloribus quos nobis libero odio quidem veniam unde!",
-    },
+      "Lorm is simply summy text of the printing and type setting the industry",  },
     {
       image: Icons.userai,
       heading: "How to use algorithms",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, atque sit minus doloribus quos nobis libero odio quidem veniam unde!",
-    },
+      "Lorm is simply summy text of the printing and type setting the industry", },
     {
       image: Icons.windowbrowser,
       heading: "How to access WebIde",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, atque sit minus doloribus quos nobis libero odio quidem veniam unde!",
-    },
+      "Lorm is simply summy text of the printing and type setting the industry",  },
     {
       image: Icons.molecule,
       heading: "How to use tools",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, atque sit minus doloribus quos nobis libero odio quidem veniam unde!",
+        "Lorm is simply summy text of the printing and type setting the industry",
     },
     {
       image: Icons.desktopdashboard,
       heading: "Create dashboard",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, atque sit minus doloribus quos nobis libero odio quidem veniam unde!",
+        "Lorm is simply summy text of the printing and type setting the industry",
     },
   ];
   return (

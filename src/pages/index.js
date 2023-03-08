@@ -6,11 +6,12 @@ import NavbarCenter from "@/components/Navbar/NavbarCenter";
 import NavbarFooter from "@/components/Navbar/NavbarFooter";
 import NavbarHeader from "@/components/Navbar/NavbarHeader";
 import Card from "@/components/card/Card";
-import Carousel from "@/components/carousel/Carousel";
+import Carousel from "@/components/carousel/Slider";
 import CarouselItem from "@/components/carousel/CarouselItem";
 import AboutCardData from "@/components/body/aboutcard/AboutCardData";
 import Link from "next/link";
 import DropDown from "@/components/body/dropdown/DropDown";
+import SignOutCard from "@/components/signout/SignOutCard";
 
 export default function Home() {
   return (
@@ -26,8 +27,12 @@ export default function Home() {
       {/* <CarouselItem/> */}
       <AboutCardData/>
       <DropDown/>
+      
+      <SignOutCard/>
+
 
       <Link href={"/datamodeling"}>click</Link>
+      <Link href={"/dataanalytics"} >click2</Link>
       <input style={{background:"gray"}} type="range" min={0} max={100}/>
       <div style={{ height: "100vh" }}></div>
     </>

@@ -14,7 +14,7 @@ function MICPOffers({ data, name, index }) {
         <p>{data.paragraph}</p>
         <SecondaryButton name={name} />
       </div>
-      <div>
+      <div> 
         <Image className={styles.image} src={data.image} alt="images" width={100} height={100} />
       </div>
     </div>

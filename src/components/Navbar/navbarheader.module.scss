@@ -4,32 +4,43 @@
   align-items: center;
   height: 38.9px;
   padding-top: 1.325rem;
+  position: relative;
 
-  .searchicon{
+  .emailbtn{
+    position: relative;
+  }
+  .searchicon {
     width: 1.325rem;
     height: 1.325rem;
   }
- 
-  button {
+
+  .signin {
     border: none;
     background-color: white;
   }
+  .iconbtn{
+    display: none;
+    @media screen and (max-width:925px)  {
+      display: block;
+    }
+  }
+
   input {
     border: none;
-    background-color: #fafafa;;
-    width: 594.7px;
+    background-color: #fafafa;
     padding: 0.8rem 0;
   }
-  input:focus{
+  input:focus {
     outline: none;
   }
-  div {
-    border-bottom: 2px solid black;
-    background-color: #fafafa;
-    height: 2.75rem;
+  .input {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 59%;
+    height: 2.75rem;
+    background-color: #fafafa;
+    border-bottom: 2px solid black;
     padding: 0 0.5rem;
-   
   }
 }
