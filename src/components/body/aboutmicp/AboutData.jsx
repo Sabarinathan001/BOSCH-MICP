@@ -9,7 +9,7 @@ function AboutData({aboutdata}) {
     <h2 className={styles.heading} >{aboutdata.heading}</h2>
     <p className={styles.paragraph}>{aboutdata.paragraph}</p>
     </div>
-    <Image className={styles.image} src={aboutdata.logo} alt="icon" width={100} heigth={100}  />
+    <Image className={styles.image} src={aboutdata.logo} alt="icon"  />
 </div>
   )
 }

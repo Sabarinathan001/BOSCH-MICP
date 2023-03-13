@@ -9,5 +9,6 @@ const Icons={
    teamlight:require("./team-lightbulb.svg"),
    userai:require("./user-artificial-intelligence.svg"),
    windowbrowser:require("./window-browser.svg"),
+   imageplaceholder:require("./imageplaceholder.svg"),
 }
 export default Icons

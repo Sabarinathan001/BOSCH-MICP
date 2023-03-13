@@ -1,28 +1,36 @@
+@import "../../../styles/variable.scss";
+
 .offer_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 4rem ;
-
-  p {
-    padding: 0.5rem 1rem 1.5rem 0;
+  padding: 2rem 4rem;
+  .link {
+    background-color: $white-color;
+    border: 1px solid $buttoncolor;
+    padding: 11px 10px 12px 11px;
+    color: $buttoncolor;
+    font-size: 0.9375rem;
+    font-family: BoschSans-light;
+  }
+  .paragraph{
+    padding: 0.5rem 1rem 2rem 0;
     line-height: 1.4;
+    font-family: BoschSans-light;
+    font-size: 1rem;
   }
   .subcontainer {
     padding-right: 4.75rem;
 
-    .heading{
+    .heading {
       font-size: 1.5rem;
-      font-weight: bold;
+      font-family: BoschSans-bold;
     }
-    
-}
+  }
   .image {
-    width: 26.05rem;
     height: 20rem;
     padding-left: 3.5rem;
   }
-
 }
 .reverse {
   display: flex;
@@ -31,23 +39,29 @@
   align-items: center;
   padding: 2rem 3.5563rem;
 
-  p {
-    padding: 0.5rem 1rem 1.5rem 0;
-    line-height: 1.4;
+  .link {
+    background-color: $white-color;
+    border: 1px solid $buttoncolor;
+    padding: 11px 10px 12px 11px;
+    color: $buttoncolor;
+    font-size: 0.9375rem;
+    font-family: BoschSans-light;
   }
-  .heading{
+  .paragraph {
+    padding: 0.5rem 1rem 2rem 0;
+    line-height: 1.4;
+    font-family: BoschSans-light;
+    font-size: 1rem;
+  }
+  .heading {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-family: BoschSans-bold;
   }
   .subreverse {
     padding-left: 4.75rem;
   }
   .image {
-    width: 26.05rem;
     height: 20rem;
-    padding-right: 4.5rem
+    padding-right: 4.5rem;
   }
 }
-
-
-

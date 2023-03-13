@@ -4,8 +4,8 @@ import styles from "./signout.module.scss"
 
 function SignOutCard() {
     const btnData=["Control Panel","View Profile","Signout"]
-    const username="kaushik"
-    const email = "kaushik@gmail.com"
+    const username=""
+    const email = ""
 
   return (
     <Card className={styles.wrap}>

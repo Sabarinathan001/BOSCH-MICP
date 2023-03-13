@@ -4,3 +4,24 @@ $buttoncolor: #007bc0;
 $white-color: #fff;
 $lightgray: #f5f5f7;
 $border-gray: #d0d0d0;
+
+@font-face {
+    font-family: 'BoschSans-regular';
+    src: url(../assests/fonts/BoschSans-Regular-v5_003.woff);
+}
+@font-face {
+    font-family: 'BoschSans-medium';
+    src: url(../assests/fonts/BoschSans-Medium-v5_003.woff);
+}
+@font-face {
+    font-family: 'BoschSans-light';
+    src: url(../assests/fonts/BoschSans-Light-v5_003.woff);
+}
+@font-face {
+    font-family: 'BoschSans-bold';
+    src: url(../assests/fonts/BoschSans-Bold-v5_003.woff);
+}
+@font-face {
+    font-family: 'BoschSans-black';
+    src: url(../assests/fonts/BoschSans-Black-v5_003.woff);
+}

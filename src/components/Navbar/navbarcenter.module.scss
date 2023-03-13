@@ -1,9 +1,11 @@
+@import "../../../src/styles/variable.scss";
 .heading {
   text-align: right;
   padding-right: 5rem;
-  padding-top: 1.9375rem;
+  padding-top: 0.5rem;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-family: BoschSans-bold;
+  
   @media screen and (max-width:925px) {
     display: none;
   }

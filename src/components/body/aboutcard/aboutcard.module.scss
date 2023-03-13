@@ -1,11 +1,13 @@
 @import "../../../styles/variable.scss";
+
 .aboutcard{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: $buttoncolor;
-    padding: 4rem 3rem;
+    padding: 2.5rem 3rem;
     color: $white-color;
+    background-image: url("../../../assests/images/aboutcard.svg");
     .subcard{
         padding-right: 2rem;
     }
@@ -13,14 +15,17 @@
         border: 1px solid $buttoncolor;
         background-color: $white-color;
         color: $buttoncolor;
-        padding: 1rem 1.625rem;
-        width: 9rem;
+        padding: 0.7rem 1.2rem;;
+        width: 11rem;
+        font-family: BoschSans-regular;
     }
     .paragraph{
         padding-top: 0.5rem;
+        font-family: BoschSans-light;
     }
     .heading{
-        font-weight: 300;
+        font-family: BoschSans-light;
+        font-weight:100;
     }
 }
 @media (minwidth:1146px) {

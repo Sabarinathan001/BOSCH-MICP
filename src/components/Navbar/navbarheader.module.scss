@@ -1,26 +1,35 @@
+@import "../../../src/styles/variable.scss";
 .header_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 38.9px;
-  padding-top: 1.325rem;
-  position: relative;
+  height: 2.4375rem;
+  padding: 0 6.9rem;
+  // position: relative;
 
-  .emailbtn{
+  .boschlogo {
+    height: 1.8125rem;
+  }
+  .emailbtn {
     position: relative;
+    display: flex;
+    align-items: center;
+
+    .signin {
+      border: none;
+      background-color: white;
+      padding-left: 6px;
+      font-family: BoschSans-light;
+    }
   }
   .searchicon {
     width: 1.325rem;
     height: 1.325rem;
   }
 
-  .signin {
-    border: none;
-    background-color: white;
-  }
-  .iconbtn{
+  .iconbtn {
     display: none;
-    @media screen and (max-width:925px)  {
+    @media screen and (max-width: 925px) {
       display: block;
     }
   }
@@ -43,4 +52,11 @@
     border-bottom: 2px solid black;
     padding: 0 0.5rem;
   }
+}
+.strip {
+  margin: 0 6px;
+  width: 99%;
+  height: 7px;
+  position: relative;
+  bottom: 7px;
 }

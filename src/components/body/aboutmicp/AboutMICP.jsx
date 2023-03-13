@@ -8,7 +8,7 @@ import styles from "./aboutmicp.module.scss";
 
 function AboutMICP() {
   const aboutdata = {
-    heading: "AboutMICP",
+    heading: "About MICP",
     logo: Images.aboutmicp,
     paragraph:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, quis.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, quis.Lorem, ipsum dolor sit amet consectetur adipisicing elit.",

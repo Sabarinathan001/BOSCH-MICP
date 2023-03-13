@@ -8,6 +8,8 @@ const Images = {
     ide:require("../images/ide.svg"),
     modelingtool:require("../images/modeling-tool.svg"),
     mydownloads:require("../images/my-downloads.svg"),
-    virtualideation:require("../images/virtual-ideation-space.svg")
+    virtualideation:require("../images/virtual-ideation-space.svg"),
+    boschStrip:require("../images/supergraphic-topbar.jpg"),
+    aboutcard:require("../images/aboutcard.svg")
 }
 export default Images

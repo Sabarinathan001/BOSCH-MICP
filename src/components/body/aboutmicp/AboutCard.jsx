@@ -8,7 +8,7 @@ function AboutCard({carddata}) {
   return (
     <div className={styles.aboutcard}>
       <div className={styles.image_container}>
-     <Image className={styles.image} src={carddata.logo} alt="icons" width={100} height={100} />
+     <Image className={styles.image} src={carddata.logo} alt="icons" width={100} height={1000} />
      </div>
      <Link className={styles.link} href={'/'} >{carddata.Name}</Link>
      <p>{carddata.paragraph}</p>

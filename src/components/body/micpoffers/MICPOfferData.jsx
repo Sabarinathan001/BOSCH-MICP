@@ -4,6 +4,7 @@ import MICPOffers from "./MICPOffers";
 import styles from "./micpofferdata.module.scss"
 
 function MICPOfferData({btnName,heading,subheading,data}) {
+  // console.log(title,"MIC")
   return (
     <div className={styles.data_container}>
         <h2 className={styles.title}>{heading}</h2>

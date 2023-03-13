@@ -5,20 +5,22 @@
   .subtitle,
   .heading {
     text-align: center;
+    
   }
   .heading {
     font-size: 3rem;
-    font-weight: bold;
+    font-family: BoschSans-bold;
   }
   .subtitle {
     font-size: 2rem;
-    font-weight: 500;
-    padding-top: 1.3313rem;
+    font-family: BoschSans-regular;
+    font-weight: 100;
+    padding-top: 1rem;
   }
 }
 .card_container {
   display: grid;
-  padding: 4rem 7rem;
+  padding: 4rem 11rem;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
